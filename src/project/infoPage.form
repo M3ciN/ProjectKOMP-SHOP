@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="project.infoPage">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="501" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14932937"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="71c9d" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14932937"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b0b2e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="16" style="1"/>
+              <foreground color="-1"/>
+              <text value="Informacje na temat sklepu"/>
+            </properties>
+          </component>
+          <component id="98919" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Algerian" size="28" style="1"/>
+              <foreground color="-1"/>
+              <text value="KOMP-SHOP"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="200c3" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="50" bottom="0" right="50"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14932937"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4fd92" class="javax.swing.JTextPane" binding="KOMPSHOPJestToTextPane" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-14932937"/>
+              <editable value="false"/>
+              <foreground color="-1"/>
+              <text value="KOMP-SHOP jest to sklep w którym możesz zakupić podzespoły komputerowe, takie jak:&#10;-Procesory(CPU)&#10;-Karty graficzne(GPU)&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;Autor: Marcin Wróbel&#10;E-mail: marcin.wrobel01@gmail.com"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a29a5" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14932937"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="deb1c" class="javax.swing.JButton" binding="COFNIJButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="COFNIJ"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
